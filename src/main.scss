@@ -2,7 +2,7 @@
 @import "../node_modules/compass-mixins/lib/compass/css3";
 
 $color-gray: #d1d1d1;
-$color-green: #00b38a;
+$color-green: #5FB878;
 $font-family: 'Helvetica Neue', Helvetica, Arial, "Microsoft YaHei", sans-serif;
 
 * {
@@ -94,7 +94,7 @@ a {
 
   .title {
     width: 100%;
-    border-bottom: 2px solid darken($color-green, 2%);
+    border-bottom: 2px solid #009688;
     font-size: 52px;
     font-weight: 300;
     overflow: hidden;
@@ -332,6 +332,7 @@ a {
 
     .item-name {
       float: left;
+      font-size: large;
     }
   }
 
